@@ -16,6 +16,14 @@ body {
 	height: 100vh;
 }
 
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+	font-family: 'Times New Roman', Times, serif;
+}
+
 header {
 	height: 17vh;
 	width: 100vw;
