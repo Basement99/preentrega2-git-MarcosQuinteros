@@ -21,13 +21,21 @@ header {
 	width: 100vw;
 }
 
-main {
-	height: 120vh;
-	width: 100vw;
+.logo:hover {
+	opacity: 0.7;
+}
+
+
+.image-zoom {
+transition: 0.3s;
+}
+
+.image-zoom:hover {
+	transform: scale(1.1);
 }
 
 footer {
-	height: 10vh;
+	height: 15vh;
 	width: 100vw;
 }
 
