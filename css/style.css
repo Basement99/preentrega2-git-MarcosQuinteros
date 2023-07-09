@@ -82,7 +82,11 @@ body {
 	background-color: orangered !important;
 }
 
-
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+	color: var(--bs-btn-active-color);
+	background-color: orangered;
+	border-color: var(--bs-btn-active-border-color);
+} 
 
 h1 {
 	font-family: 'Times New Roman', Times, serif;
@@ -98,16 +102,16 @@ header {
 }
 
 .logo:hover {
-	opacity: 0.7;
+	opacity: 0.7 !important;
 }
 
 
 .image-zoom {
-transition: 0.3s;
+transition: 0.3s !important;
 }
 
 .image-zoom:hover {
-	transform: scale(1.1);
+	transform: scale(1.1) !important;
 }
 
 footer {
